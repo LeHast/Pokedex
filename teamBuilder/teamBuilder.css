@@ -1,0 +1,543 @@
+body{
+    background-color: lightsteelblue;
+    color: white;
+    margin: 0;
+    font-family: Rubik;
+}
+.taskBar{
+    background:  whitesmoke;
+    position: absolute;
+    Width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: black;
+    font-family: Rubik;
+    text-align: center;
+}
+
+#homePage{
+    border: solid 3px black;
+    flex-grow: 1;
+}
+
+#homePage:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0px 1px 2px lightgray;
+}
+
+#homePage img{
+    height: 64px;
+    width: 64px;
+}
+
+#mainPage{
+    border: solid 3px black;
+    flex-grow: 2;
+}
+
+#mainPageAnchor{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+#mainPage:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0px 1px 2px lightgray;
+}
+
+#News{
+    border: solid 3px black;
+    flex-grow: 2;
+    text-decoration: none;
+}
+
+#newsAnchor{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+#News:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0px 1px 2px lightgray;
+}
+
+#comparePokemon{
+    border: solid 3px black;
+    flex-grow: 2;
+}
+
+#comparePokemonAnchor{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+#comparePokemon:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0px 1px 2px lightgray;
+}
+
+#teamBuilder{
+    border: solid 3px black;
+    flex-grow: 2;
+}
+
+#teamBuilderAnchor{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+#teamBuilder:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0px 1px 2px lightgray;
+}
+
+#aboutUs{
+    border: solid 3px black;
+    flex-grow: 2;
+}
+
+#aboutUsAnchor{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+#aboutUs:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0px 1px 2px lightgray;
+}
+
+#newsContent {
+    background: white;
+    color: black;
+    width: 1000px;
+    height: 900px;
+    position:relative;
+    top: 100px;
+    margin: auto;
+    border: 3px black solid;
+    padding: 15px 50px 15px 50px;
+}
+#newsContent h1{
+    text-align: center;
+    font-weight: 800;
+}
+
+#newsContent p{
+    text-indent: 50px;
+    line-height: 2.0;
+    font-size: large;
+}
+#start{
+    position: relative;
+    left:350px;
+    width: 299px;
+    height: 168px;
+}
+
+.teamPokemon{
+    background-color: lightsteelblue;
+    position:absolute;
+    Width: 75%;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    color: black;
+    font-family: Rubik;
+    text-align: center;
+    left: 12.5%;
+}
+
+#pokemon1{
+    display: flex;
+    height: 250px;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+#pokemon2{
+    display: flex;
+    height: 250px;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+#pokemon3{
+    display: flex;
+    height: 250px;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+#pokemon4{
+    display: flex;
+    height: 250px;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+#pokemon5{
+    display: flex;
+    height: 250px;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+#pokemon6{
+    display: flex;
+    height: 250px;
+    flex-direction: row;
+    margin-bottom: 15px;
+    
+}
+.card-image {
+    height: 250px; 
+}
+.card{
+    list-style: none;
+}
+
+.movesList{
+    background-color: white;
+    width: 50%;
+    height: 250px;
+    margin: auto;
+    display:flex;
+    border-radius: 20px;
+    flex-direction: column;
+
+
+}
+
+#move1 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 15px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+#move5 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 15px;
+    flex-direction: row;
+    justify-content: center;
+}
+#move9 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 15px;
+    flex-direction: row;
+    justify-content: center;
+}
+#move13 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 15px;
+    flex-direction: row;
+    justify-content: center;
+}
+#move17 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 15px;
+    flex-direction: row;
+    justify-content: center;
+}
+#move21 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 15px;
+    flex-direction: row;
+    justify-content: center;
+}
+#move2 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+#move6 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+#move10 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+#move14 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+#move18 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+#move22 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+#move3 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+#move7 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+#move11 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+#move15 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+#move19 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+#move23 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+#move4 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#move8 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#move12 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#move16 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+#move20 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+#move24 {
+    display: flex;
+    border:black 2px solid;
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#listWrapper {
+    overflow: auto;
+    position: fixed;
+    top: 17%;
+    right: 15px;
+    height: 90%;
+    width: 22%;
+    background: #f4f4f4;
+    opacity: .95;
+    justify-content: center;
+    z-index: 99;
+    border: black;
+    display: block;
+}
+
+#listWrapper1 {
+    overflow: auto;
+    position: fixed;
+    top: 17%;
+    right: 15px;
+    height: 80%;
+    width: 22%;
+    background: #f4f4f4;
+    opacity: .95;
+    justify-content: center;
+    z-index: 99;
+    border: black;
+    display: block;
+}
+
+#pokemonList {
+    margin-top: auto;
+    justify-content: right;
+    align-items: center;
+    text-transform: capitalize;
+    border: 1px solid black;
+} 
+
+#pokemonList li{
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid black;
+    white-space: pre-line;
+}
+
+#listWrapper ul {
+    list-style: none;
+}
+
+#listWrapper li {
+    color: black;
+}
+#listWrapper1 ul {
+    list-style: none;
+}
+
+#listWrapper1 li {
+    color: black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid black;
+}
+
+
+/*******/
+#moveName{
+    font-weight: bold;
+    padding-right: 10% ;
+    position: relative;
+    text-align:left;
+    text-transform: capitalize;
+}
+
+#moveStats{
+    font-weight: bold;
+    padding-right: 10px ;
+}
